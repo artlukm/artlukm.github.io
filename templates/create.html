@@ -1,0 +1,17 @@
+{{ define "create"}}
+            
+{{ template "header" }} 
+
+    <main class="px-3">
+    <h1>Form .</h1>
+    <form action="/save_article" method="post">  
+        <input type="text" name="title" id="title" placeholder=" " class="form-control"> <br>
+        <textarea name="anons" id="anons" class="form-control" placeholder=" "> </textarea> <br>
+        <textarea name="full_text" id="full_text" class="form-control" placeholder=" "> </textarea> <br>
+        <button class="btn btn-warning">Add</button>
+    </form>
+    </main>
+
+    {{ template "footer" }}
+            
+{{ end }}
