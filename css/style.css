@@ -16,4 +16,5 @@ article {
 pre {
   background: rgb(116, 113, 113); 
   overflow: auto; 
+  padding: 10px;
 }
