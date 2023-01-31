@@ -1,19 +1,19 @@
-/* * {
+* {
   text-decoration: none; 
-  color: rgb(74, 74, 74);
-   background: rgb(63, 63, 63); 
-}  */
+  color: azure;
+  background: rgb(72, 72, 72); 
+} 
 
-/* article { 
+article { 
   width: 70%;
   /* background-color: rgb(62, 59, 59); */
-  /* margin-top: 20px;
+  margin-top: 20px;
   margin-left: 10em;
   padding: 10px;
   font-size: 14px;
-} */
+}
 
 pre {
-  background: rgb(41, 38, 38); 
+  background: rgb(116, 113, 113); 
   overflow: auto; 
 }
